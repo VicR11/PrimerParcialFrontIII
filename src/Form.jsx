@@ -1,5 +1,4 @@
-// FormComponent.jsx
-import styles from "./Form.css?inline";
+import styles from "./Form.module.css";
 import React from 'react';
 
 

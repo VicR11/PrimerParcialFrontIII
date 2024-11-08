@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import styles from "./App.css?inline";
+import styles from "./App.module.css";
 import { validateText } from './util/validateText';
 import Card from "./Card";
 import Form from "./Form";
@@ -48,7 +48,7 @@ const handleSubmit = (event) => {
   return (
     <div className="App">
      
-      <h1>Elige un color</h1>
+      <h1  className={styles.h1}>Elige un color</h1>
       <Form 
         handleSubmit={handleSubmit} 
         handleChange={handleChange} 

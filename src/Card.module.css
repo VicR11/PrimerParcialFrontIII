@@ -1,0 +1,38 @@
+
+.cardContainer {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 350px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .cardContainer h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .cardContainer section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .cardContainer p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .cardContainer p:first-child {
+    font-weight: bold;
+  }
+  
+  .cardContainer p:last-child {
+    color: #4CAF50; 
+  }
+  
